@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title> 
+    </head>
+    <body>
+        <form action="#" method="post">
+        <div>
+                <label id="FirstNameLabel" for="FirstName">First Name: </label>
+                <input id="FirstName" name="FirstName" type="text"/>
+            </div>
+            <div>
+                <label id="LastNameLabellabel" for="LastName">Last Name: </label>
+                <input id="LastName" name="LastName" type="text"/>
+            </div>
+            <div>
+                <label id="EmailLabel" for="Email">Email: </label>
+                <input id="Email" name="Email" type="text"/>
+            </div>
+            <div>
+                <label id="LicenseLabel" for="License">Type of License: </label>
+                <input type="radio" name="answer" value"Business"checked/>Business <input type="radio" name="answer" value="Personal"/> Personal
+            </div>
+            <div>
+                <label id="ReasonLabel" for="Reason">Reason:</label>
+                <select name="reason">
+                    <option value="Select a Reason">Select a Reason</option>
+                    <option value="Software Support">Software Support</option>
+                    <option value="Hardware Support">Hardware Support</option>
+                    <option value="Information Request">Informatoin Request</option>
+                </select>
+            </div>
+            <div>
+                <label id="AdditionalInfoLabel" for="AdditionalInfo">Additional Information: </label>
+                <textarea id="Message" name"Message"></textarea></br>
+            </div>
+            <div>
+                <input type="checkbox" name="TermsAgreement" value="TermsAgreement"/>I have read the terms of service.
+            </div>
+            <div>
+                <input type="button" name="SendRequest" value="Send Request"/>
+
+            </div>
+            
+        </form>
+
+    </body>
+</html>
